@@ -1,0 +1,94 @@
+.badge {
+  width: 4.25rem;
+  height: 1.5rem;
+  background-color: #f3f4f6;
+  color: #1f2937;
+  border: none;
+  border-radius: 0.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.25em 2.5em;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.banner {
+  display: flex;
+  /* max-width: 80%; */
+  padding: 1.5em;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+}
+
+.card {
+  width: 24rem;
+  /* height: 12rem; */
+  background-color: #f9fafb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.card-hovered {
+  box-shadow: 0 0 1em 1em #1f2937;
+}
+
+.card-icon {
+  height: 4rem;
+  width: 4rem;
+  margin-top: -3.5em;
+}
+
+.card-title {
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
+.card-content {
+  margin-top: 1.25em;
+  color: #6b7280;
+  text-align: center;
+}
+
+.pill {
+  border-radius: 1.25rem;
+}
+
+.red {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+.yellow {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.green {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.blue {
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+
+.indigo {
+  background-color: #e0e7ff;
+  color: #3730a3;
+}
+
+.purple {
+  background-color: #ede9fe;
+  color: #5b21b6;
+}
+
+.pink {
+  background-color: #fce7f3;
+  color: #9d174d;
+}
